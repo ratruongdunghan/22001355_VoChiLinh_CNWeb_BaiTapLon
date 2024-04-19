@@ -183,7 +183,6 @@ ul.list-photo li:hover img {
     position: absolute;
     height: auto;
     width: 500px;
-    border: 1px solid black;
     border-radius: 10px;
     padding: 2%;
     right: 0;
