@@ -181,17 +181,16 @@ border: 1px solid black;
 
 
 
-
 .footer ul li {
     list-style: none;
 
 }
 
 .footer {
-    height: auto;
+    height: 400px;
     width: 100%;
     background-color: gray;
-   
+   padding: 2%; 
 }
 
 .footer .getsupport {
@@ -204,17 +203,27 @@ border: 1px solid black;
     padding: 0;
     margin: 0;
 }
-
-.footer .getsupport ul li {
-    display: inline-block;
-    margin-right: 20px; 
-
-}
-
 .footer .getsupport ul li a {
     color: black;
 }
 
+
+.footer .getsupport ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
 .footer .getsupport ul h4 {
     margin-bottom: 10px; 
+}
+
+.symbol ul li{
+    display: flex;
+    display: inline;
+}
+
+.download {
+    position: relative;
+    left: 800px;
+    bottom: 75px;
 }

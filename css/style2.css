@@ -286,8 +286,8 @@ ul.list-photo li:hover img {
 .footer {
     height: 400px;
     width: 100%;
-  
-   padding: 2%;
+    background-color: gray;
+   padding: 2%; 
 }
 
 .footer .getsupport {
@@ -322,4 +322,5 @@ ul.list-photo li:hover img {
 .download {
     position: relative;
     left: 800px;
+    bottom: 75px;
 }
