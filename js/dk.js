@@ -3,7 +3,7 @@ function TimKiemSanPham() {
 
     if (tuKhoa == "") {
         alert("Vui lòng nhập từ khóa tìm kiếm!")
-        return falsel;
+        return false;
 
     } else {
         return true;

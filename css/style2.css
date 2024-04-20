@@ -86,8 +86,8 @@ body {
 }
 
 #main-menu ul.sub-menu {
-    position: absolute;
-    background-color: #c69c57;
+    
+
     padding: 15px 0px;
     width: 200px;
     display: none;
@@ -276,7 +276,7 @@ ul.list-photo li:hover img {
 
 
 
-.getsupport ul {}
+
 
 .footer ul li {
     list-style: none;
@@ -284,7 +284,42 @@ ul.list-photo li:hover img {
 }
 
 .footer {
-    height: auto;
+    height: 400px;
     width: 100%;
-    background-color: #c69c57;
+  
+   padding: 2%;
+}
+
+.footer .getsupport {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.footer .getsupport ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer .getsupport ul li a {
+    color: black;
+}
+
+
+.footer .getsupport ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.footer .getsupport ul h4 {
+    margin-bottom: 10px; 
+}
+
+.symbol ul li{
+    display: flex;
+    display: inline;
+}
+
+.download {
+    position: relative;
+    left: 800px;
 }
